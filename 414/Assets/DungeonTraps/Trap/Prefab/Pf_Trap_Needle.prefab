@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 11115020}
   m_Layer: 0
   m_Name: Pf_Trap_Needle
-  m_TagString: Untagged
+  m_TagString: "\u9677\u9631"
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27,9 +27,10 @@ GameObject:
   - component: {fileID: 3315018}
   - component: {fileID: 2315018}
   - component: {fileID: 6515020}
+  - component: {fileID: 114384908737537282}
   m_Layer: 0
   m_Name: Needle
-  m_TagString: Untagged
+  m_TagString: "\u9677\u9631"
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -58,7 +59,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 115016}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.5, y: 0, z: 0}
+  m_LocalPosition: {x: 0.73934245, y: -0.90153056, z: 9.227789}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 415018}
@@ -183,7 +184,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 115018}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.52995527, y: 0.5085304, z: 0.5162337}
@@ -217,3 +218,15 @@ Prefab:
   m_SourcePrefab: {fileID: 0}
   m_RootGameObject: {fileID: 115016}
   m_IsPrefabAsset: 1
+--- !u!114 &114384908737537282
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 115018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb2c9f0533ea8e44f8139b487f795c0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 10
