@@ -1,0 +1,14 @@
+{
+"companyName": "mayu",
+"productName": "吃雞腿",
+"dataUrl": "Wed.data.unityweb",
+"wasmCodeUrl": "Wed.wasm.code.unityweb",
+"wasmFrameworkUrl": "Wed.wasm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"backgroundUrl": "Wed.jpg",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#FFFFFF",
+"cacheControl": {"default": "must-revalidate"}
+}

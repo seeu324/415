@@ -40,7 +40,7 @@ public class GameManager : MonoBehaviour
         //yield return new WaitForSeconds(1);     // 等待秒數(秒數);
         //print("測試 2");
 
-        AsyncOperation ao = SceneManager.LoadSceneAsync("場景");    // 取得場景資訊
+        AsyncOperation ao = SceneManager.LoadSceneAsync("play");    // 取得場景資訊
         ao.allowSceneActivation = false;                            // 取消載入場景
                                                                     // 當 (場景載入 == 未完成)
         while (ao.isDone == false)
@@ -58,4 +58,19 @@ public class GameManager : MonoBehaviour
         }
 
     }
+
+    public void Replay()
+    {
+        SceneManager.LoadScene("選單");
+        Time.timeScale = 1.0f;
+    }
+
+    public void Quit()
+    {
+        Application.Quit();
+    }
 }
+
+    
+
+    
